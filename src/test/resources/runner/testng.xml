@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="LoginSuite">
+  <test name="LoginTest">
+    <classes>
+      <class name="testSuites.TestLogin"/>      
+      <!-- <class name="testSuites.TestSummaryByReportingOptionWithBarChart"/>
+      <class name="testSuites.TestSummaryByReportingOptionWithLineChart"/> 
+      <class name="testSuites.HypothesisThree"/> -->
+      <class name="testSuites.HighExclusionExpected"/>  
+     <!--  <class name="testSuites.HighExclusionNotExpected"/>
+      <class name="testSuites.Frequencies"/> 
+      <class name="testSuites.HypothesisFour"/>
+      <class name="testSuites.HypothesisSix"/>
+      <class name="testSuites.TestSaveAsScreen"/> 
+      <class name="testSuites.TestUploadfile"/> -->
+    </classes>
+  </test> 
+</suite> 
